@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main header {
+  display: flex;
+  flex-direction: row;
+}
+main header .notifications {
+  display: flex;
+  width: 40vw;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+  color: hsl(0, 0%, 0%);
+}
+main header .notifications h1 {
+  font-size: 20px;
+}
+main header .notifications span {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 79%, 33%);
+  width: 30px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+main header .read {
+  font-family: "Plus Jakarta Sans";
+  color: hsl(219, 14%, 63%);
+}
+main header .read:hover {
+  cursor: pointer;
+  color: hsl(240, 80%, 36%);
+}
+main .active {
+  background-color: hsl(210, 60%, 98%);
+}
+main article {
+  width: 40rem;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  color: hsl(219, 14%, 63%);
+  margin-top: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  border-radius: 10px;
+}
+main article .photo:hover {
+  border: 3px solid hsl(219, 14%, 63%);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+}
+main article img {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+main article .kimberly {
+  width: 85vw;
+}
+main article .ago {
+  color: hsl(214, 4%, 63%);
+}
+main article .message {
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 43vw;
+  padding: 1rem;
+  background-color: hsl(205, 33%, 90%);
+}
+main article .message:hover {
+  cursor: pointer;
+  border: none;
+}
+main article .reading {
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 43vw;
+  padding: 1rem;
+  border: 1px solid hsl(219, 14%, 63%);
+}
+main p {
+  font-size: 16px;
+}
+main p img {
+  position: static;
+  margin-left: 45rem;
+}
+main p .circle {
+  fill: orangered;
+  background-color: orangered;
+  border-radius: 100px;
+  width: 8px;
+  position: static;
+  margin-left: 0.2rem;
+}
+main p .circle2 {
+  fill: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
+}
+main p .avatar {
+  font-weight: 800;
+  color: hsl(0, 0%, 0%);
+}
+main p .avatar:hover {
+  cursor: pointer;
+  color: hsl(240, 80%, 36%);
+}
+main p .comentario {
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+}
+main p .whioutReading {
+  color: hsl(240, 80%, 36%);
+  font-weight: 800;
+}
+main p .whioutReading:hover {
+  cursor: pointer;
+}
+
+footer {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 650px) {
+  main header .notifications {
+    width: 42vw;
+    margin-bottom: 1em;
+  }
+  main article {
+    width: 60vw;
+  }
+  main article .message {
+    width: 47vw;
+  }
+  main article .kimberly {
+    width: 65%;
+  }
+  main article .photo {
+    position: absolute;
+    right: 7rem;
+  }
+  main article p img {
+    margin-left: 10rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
